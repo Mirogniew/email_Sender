@@ -1,0 +1,1 @@
+INSERT INTO mailingList(login) Values ('test@test.test');
