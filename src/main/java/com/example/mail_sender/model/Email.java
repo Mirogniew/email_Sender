@@ -3,13 +3,14 @@ package com.example.mail_sender.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "MAILING")
+@Table(name = "mailing")
 public class Email {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
     private Integer id;
+
     @Column
     private String email;
 
